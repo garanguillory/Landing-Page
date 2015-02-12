@@ -1,3 +1,11 @@
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,22 +55,99 @@ table {
   border-spacing: 0;
 }
 
+body{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content{
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.top-navigation .logo{
+  margin-top: 1.5%;
+  margin-left: 2.5%;
+}
+
+.top-navigation .links {
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  color: #838994;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li{
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 25px;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover{
+  color: #4c5058;
+  cursor: pointer;
+}
+
+.introduction{
+  text-align: center;
+  color: white;
+  background: url('../img/first-background.jpg');
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  overflow: auto;
+}
+
+/*.introduction .content{
+
+}
+*/
+
+.introduction h1, .introduction h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 0.4em;
+}
 
 
+.introduction h1{
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
 
+.introduction h3{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.563rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.big-button {
+  width: 9.688rem;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 1.125rem;
+}
 
 
 
