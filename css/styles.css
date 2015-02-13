@@ -152,16 +152,8 @@ body{
   font-size: 1.125rem;
 }
 
-/*.cases .devices{
-  width: 33.3333333%;
-  display: inline-block;
-   styles to assist with debugging 
-  border: 1px solid black;
-  box-sizing: border-box;
-  height: 20px;
-}*/
 .cases{
-  height: 600px;
+  height: 500px;
 }
 
 .cases .content{
@@ -194,6 +186,72 @@ body{
 .cases .devices img{
   height: 120px;
 }
+
+.social{
+  height: 200px;
+}
+
+.social hr{
+  margin: 0 250px 20px 250px;
+}
+
+.content .icons{
+  text-align: center;
+  margin: 15px 0;
+}
+
+.content .icons li{
+  display: inline-block;
+  text-align: center;
+}
+
+.joinUs{
+  text-align: center;
+}
+
+.karmaInc{
+  text-align: center;
+}
+
+.content .icons i{
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+
+/*
+.social .icons > i {
+border-radius: 50%;
+width: 2.5rem;
+height: 2.5rem;
+display: inline-block;
+margin: 1.25rem 5px;
+border: 1px solid #eaebec;
+padding: 0.625rem 0;
+text-align: center;
+}
+*/
+
+
+.social .twitter{
+  color: #55acee;
+}
+
+.social .facebook{
+  color: #4c66a4;
+}
+
+.social .instagram{
+  color: #3f729b;
+}
+
+
+
+
+
 
 
 
